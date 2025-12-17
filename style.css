@@ -315,3 +315,76 @@ body {
     border-radius: 0.375rem;
     font-size: 1rem;
 }
+
+
+/* AVIS CLIENTS */
+.main__avis-clients {
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.main__avis-clients h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: var(--darkblue);
+}
+
+.main__avis-clients h2 {
+    color: var(--darkblue);
+}
+
+.main__avis-clients .fa-star {
+    color: gold;
+    margin: 0 2px;
+    font-size: 1rem;
+}
+
+.main__avis-clients__avis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.main__avis-clients img {
+    border-radius: 50%;
+}
+
+/* MAIN AVANTAGES */
+.main__avantages {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    color: var(--darkblue);
+    background-color: var(--offwhite);
+}
+
+.main__avantages h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #1f2a44;
+}
+
+.main__avantages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main__avantages li {
+    position: relative;
+    padding-left: 48px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.main__avantages img {
+    width: 100%;
+}
