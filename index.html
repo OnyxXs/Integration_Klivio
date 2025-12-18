@@ -40,9 +40,8 @@
         </nav>
     </header>
 
-
+    <!-- MAIN -->
     <main>
-        <!-- HERO BOX-->
 
         <section class="hero">
             <div class="hero-content">
@@ -51,9 +50,6 @@
                 <a href="#" class="hero-button">En savoir plus</a>
             </div>
         </section>
-
-
-        <!-- MAIN -->
 
         <div class="main__formations-populaire">
             <h1 id="popular">Les formations populaires</h1>
@@ -253,18 +249,19 @@
         <div class="main__avantages">
             <h1>LES AVANTAGES KLIVIO</h1>
             <ul>
-                <li id="arrow">Suivi de sa progression </li>
+                <li id="arrow">Suivi de sa progression</li>
                 <li id="pen">Exercices et QCM pour la mise en pratique</li>
                 <li id="download">Possibilité de télécharger/imprimer les formations</li>
                 <li id="empty-star">Contenu qualitatif et vérifié</li>
                 <li id="clock">Suivi en autonomie, 24h/24, 7j/7</li>
-                <li id="msg">Espaces d'échanges dédiés pour poser ses questions <br>sur les formations</li>
+                <li id="msg">Espaces d'échanges dédiés pour poser ses questions <br> sur les formations</li>
             </ul>
             <img src="assets/img/avantages.png" alt="Humain de type femelle, souriante, devant son ordinateur portatif">
         </div>
 
         <div class="main__create">
             <h1>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
+            <img src="assets/img/become-author.png" title="author">
             <ul class="main__create__ul">
                 <li id="money">Commission unique, au pourcentage sur les ventes</li>
                 <li id="heart">Mise en avant sur la plateforme</li>
@@ -274,49 +271,46 @@
                     suivi des statistiques des ventes, gestion de codes promos, gestion de la <br>
                     facturation, etc</li>
                 <li id="profile">Le professeur reste 100% propriétaire de sa formation <br>
-                    et conserve tous ses droits d&#39auteur</li>
+                    et conserve tous ses droits d'auteur</li>
             </ul>
-            <img src="assets/img/become-author.png" title="author">
         </div>
 
         <div class="main__about">
             <h1>À PROPOS DE KLIVIO</h1>
-            <p>Chez Klivio, nous défendons des valeurs fondamentales qui
-                définissent notre approche éducative. Nous nous engageons à
-                assurer une rémunération équitable pour les créateurs de contenu,
-                reconnaissant la qualité de leur travail. <br>
-                Favorisant l'autonomie d'apprentissage, notre plateforme offre
-                la flexibilité écessaire pour explorer divers sujets. La transparence est
-                au cœur de notre démarche, garantissant une clarté totale sur les
-                formations que les instructeurs proposent. Ensemble, ces valeurs
-                forment le socle d'une ducation enrichissante et équitable, guidant
-                notre mission d'offrir des pportunités d'apprentissage de qualité</p>
-            <div class="main__about__logo">
-                <img src="assets/img/logo.png" title="logo">
-            </div>
+            <p>
+                Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail.
+                
+                Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une ducation enrichissante et équitable, guidant notre mission d'offrir des opportunités d'apprentissage de qualité
+            </p>
         </div>
-        <div id="logoAbout">
 
-        </div>
+        <div class="main__about__logo">
+            <img src="assets/img/logo.png" title="logo">
         </div>
 
         <div class="main__contact">
-            <!-- REMPLACER PAR UN FORMULAIRE -->
             <h1>NOUS CONTACTER</h1>
-            <form action="" method="get" class="main__contact__form">
-                <input class="main__contact__form__name" type="text" placeholder="Nom">
-                <input class="main__contact__form__email" class="main__contact__form" type="text" placeholder="Email">
-                <input class="main__contact__form__msg" type="text" placeholder="Votre message">
-            </form>
-            <button class="main__contact__button" type="button">Envoyer</button>
-        </div>
-    </main>
-    <!-- FOOTER -->
 
+            <form class="main__contact__form">
+                <input class="main__contact__input" type="text" name="name" placeholder="Nom">
+                <input class="main__contact__input" type="email" name="email" placeholder="Email">
+                <textarea class="main__contact__textarea" name="message" placeholder="Votre message"></textarea>
+                <button class="main__contact__button" type="submit">Envoyer</button>
+            </form>
+        </div>
+
+    </main>
+
+    <div class="main__greenbar"></div>
+
+    <!-- FOOTER -->
     <footer class="main__footer">
-        <!-- image logo -->
-        <div class="main__footer__legal-mention">
-            <ul>
+
+        <img src="assets/img/logo.png" alt="Logo Klivio" class="klivio-logo" />
+        
+        <div class="footer__block">
+            <h3 class="footer__title">Mentions légales</h3>
+            <ul class="main__footer__legal-mention">
                 <li>CGU</li>
                 <li>CGV</li>
                 <li>FAQ</li>
@@ -324,27 +318,15 @@
             </ul>
         </div>
 
-        <div class="main__footer__coordonnées">
-            <ul>
-                <li>1 place république, <br> 75003 Paris</li>
-                <li>01.02.03.04.05</li>
-                <li>contact@klivio.fr</li>
+        <div class="footer__block">
+            <h3 class="footer__title">Coordonnées</h3>
+            <ul class="main__footer__coordonnées">
+                <li id="location">1 place République,
+                    75003 Paris
+                </li>
+                <li id="phone">01.02.03.04.05</li>
+                <li id="mail">contact@klivio.fr</li>
             </ul>
-        </div>
-
-
-        <!-- FOOTER DESKTOP ONLY -->
-        <div class="main__footer__desktop">
-            <button class="main__footer__desktop__button-SignUp">Connexion</button>
-            <button class="main__footer__desktop__button-SignIn">Inscription</button>
-            <p>© Klivio - 2025</p>
-            <div class="main__footer__reseaux">
-                <p>Suivez - nous</p>
-                <img src="assets/icons/Social Icons(1).svg" title="social1">
-                <img src="assets/icons/Social Icons.svg" title="social2">
-                <img src="assets/icons/Social Icons(2).svg" title="social3">
-                <img src="assets/icons/Vector.svg" title="vector">
-            </div>
         </div>
     </footer>
 
